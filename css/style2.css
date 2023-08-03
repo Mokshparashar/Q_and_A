@@ -1,0 +1,56 @@
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    margin-top: 3rem;
+    height: 20rem;
+}
+
+.underline{
+    display: block;
+        width: 10rem;
+        height: 0em;
+        border: 1px solid blueviolet;
+        margin: auto;
+        margin-top: 1rem;
+    }
+
+    input{
+        width: 30rem;
+        height: 3rem;
+        border: 2px solid blueviolet;
+        font-size: 1.3rem;
+        padding-left: 1rem;
+        border-radius: 10px;
+    }
+    
+    .animated-text{
+    position: relative;
+    top: -12%;
+    left: -20%;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.2rem;
+    pointer-events: none;
+    }
+
+    input:focus~#animated-text-1{
+           transform: translate(-35%,-120%);
+           font-size: 1rem;
+           background-color: white;
+           transition: all .3s;
+           color: blueviolet;
+
+           }
+        
+    input:focus~#animated-text-2{
+        transform: translate(-35%,-120%);
+        font-size: 1rem;
+        background-color: white;
+        transition: all .3s;
+        color: blueviolet;
+     }
+
+    
