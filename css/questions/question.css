@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito Sans", sans-serif;
+  /* overflow-x: hidden; */
+}
+
+.question-container {
+  width: 70vw;
+  height: fit-content;
+
+  margin: auto;
+
+  margin-top: 5rem;
+}
+input {
+  opacity: 0;
+}
+
+.input-box {
+}
+
+label {
+  font-size: 1.3rem;
+  border: 1px solid blueviolet;
+  padding: 0.5rem 1rem;
+  display: block;
+  width: 80%;
+  margin-top: -1rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+input:checked ~ label {
+  background-color: blueviolet;
+  color: white;
+}
+
+section {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transform: translateX(-300vw);
+}
+
+button {
+  border: none;
+  background: none;
+  color: blueviolet;
+}
+
+.btn-box {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+svg {
+  width: 1.4rem;
+  height: 1.4rem;
+  color: blueviolet;
+}
+#submit {
+  border: 1px solid blueviolet;
+  background-color: blueviolet;
+  color: white;
+  padding: 0.3rem 1rem;
+  text-decoration: none;
+}
+#submit:hover {
+  border: 1px solid blueviolet;
+  background-color: white;
+  color: blueviolet;
+  padding: 0.3rem 1rem;
+  transition: all 0.5s;
+}

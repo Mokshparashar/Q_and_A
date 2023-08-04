@@ -1,88 +1,81 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-    font-family: 'Nunito Sans', sans-serif;
-    margin: 0;
-    padding: 0;
-
-}
-
-.main-heading{
-    text-align: center;
+body {
+  font-family: "Nunito Sans", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-.underline{
-display: block;
-    width: 10rem;
-    height: 0em;
-    border: 1px solid blueviolet;
-    margin: auto;
-    margin-top: 1rem;
+.main-heading {
+  text-align: center;
 }
 
-.main-page-container{
-    border: 2px solid blueviolet;
-    color: white;
-    width: 40vw;
-    margin: auto;
-    margin-top: 6rem;    
-    height: 60vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
-    border-radius: 10px;
+.underline {
+  display: block;
+  width: 10rem;
+  height: 0em;
+  border: 1px solid blueviolet;
+  margin: auto;
+  margin-top: 1rem;
 }
 
-.main-page-container:hover{
-    border-bottom-left-radius: 15%;
-    transition: all .4s;
+.main-page-container {
+  border: 2px solid blueviolet;
+  color: white;
+  width: 40vw;
+  margin: auto;
+  margin-top: 6rem;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
 }
 
-h3{
-    color: black;
-    margin-top: 1rem;
+.main-page-container:hover {
 }
 
-a{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-decoration: none;
-    margin-top: 1rem;
-    width: 6rem;
-   
-   
-}
-.bx{
-    font-size: 4rem;
-    
+h3 {
+  color: black;
+  margin-top: 1rem;
 }
 
-.bxl-typescript{
-    color: rgb(10, 142, 250);
+a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-decoration: none;
+  margin-top: 1rem;
+  width: 6rem;
 }
 
-.bxl-javascript{
-   color: rgb(241, 241, 115);
+.bx {
+  font-size: 4rem;
 }
-.bxl-react{
-    color: cyan;
- }
- .bxl-nodejs{
-    color: rgb(141, 212, 34);
- }
- .bxl-mongodb{
-    color: rgb(100, 158, 13);
- }
-.main-content{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    width:50%;
-    margin: auto;
-   
 
+.bxl-typescript {
+  color: rgb(10, 142, 250);
+}
+
+.bxl-javascript {
+  color: rgb(215, 215, 6);
+}
+.bxl-react {
+  color: cyan;
+}
+.bxl-nodejs {
+  color: rgb(141, 212, 34);
+}
+.bxl-mongodb {
+  color: rgb(100, 158, 13);
+}
+.main-content {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 50%;
+  margin: auto;
 }
